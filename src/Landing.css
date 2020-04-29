@@ -1,0 +1,73 @@
+.landing-container{
+    height: 90vh;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    background-image: url("/imgs/mobile-background.jpg"); 
+    background-size: cover;
+}
+
+.landing-title h1{
+    color: #88d498;
+    text-shadow: 2px 2px rgba(40, 40, 50, 0.8);
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    letter-spacing: 5px;
+}
+
+.landing-button{
+    background-color: #1D976C;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.3);
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.landing-button:hover{
+    transform: translateY(-5px);
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.2)
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .landing-title h1{
+        font-size: 2.5rem;
+        padding: 50px 0;
+    }
+
+    .landing-container{
+        background-image: url("/imgs/desktop-background.jpg"); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%; /* move the background image to the right */
+    }
+}
+
+@media screen and (min-width: 900px){
+    .landing-title h1{
+        font-size: 3rem;
+        padding: 50px 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .landing-title h1{
+        font-size: 3.5rem;
+        padding: 50px 0;
+        width: 40%;
+        margin: 0 auto;
+    }
+}
