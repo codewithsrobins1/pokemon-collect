@@ -1,69 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokemon Collector
 
-## Available Scripts
+Pokemon Collector is a web application where users can collect all the Pokemon from the first generation. Web application was built with React and uses PokeApi to pull data.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+![demo](https://github.com/codewithsrobins1/pokemon-collect/blob/master/pokemon-collect.gif)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Link to Live Site
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+https://pokemon-collect.netlify.app/
 
-### `npm test`
+## Objectives
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Build a web application with React that uses an API
+* Practice React Hooks
+* Practice React Router to transition between web pages
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.	React Router (https://reacttraining.com/react-router/) – Page Transitions for routing to keep UI in sync with URL
+2.  Axios (https://github.com/axios/axios) -  Promise based HTTP client for the browser and node.js
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To get a local copy up and running follow these steps using your terminal.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone the repo
+```sh
+git clone https://github.com/codewithsrobins1/pokemon-collect.git
+```
+2. Install NPM packages
+```sh
+npm install i
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
 
-## Learn More
+## React Components
+* App.js – Renders the application. Contains the various routes
+*	Landing.js - Serves as the landing page for the application
+*	Navbar.js - The navigation bar for all pages
+* PokeCollector.js - The main component that 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Component Tree
 
-### Code Splitting
+To help visualize the structure of the components, please reference the below structure,
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- App.js
+  - Navbar.js
+  - Landing.js
+  - PokeCollector.js
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# pokemon-collect
